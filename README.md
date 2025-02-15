@@ -1,4 +1,3 @@
-readme: |
   # Projeto de Acomodações de Temporada
 
   Este repositório contém uma aplicação completa para gerenciar e exibir acomodações de temporada. O projeto está dividido em duas partes:
@@ -59,6 +58,8 @@ readme: |
 3. **Verificando**:
    - Acesse [http://localhost:8000/docs](http://localhost:8000/docs) para visualizar a documentação Swagger gerada automaticamente.
    - O arquivo `db.json` em `backend/data/db.json` contém todas as acomodações.
+   - 
+4. **Ajustar Caso Alterar a Porta do Frontend** `main.py` para apontar a URL da sua API (por padrão `http://localhost:3000`).
 
 ### Instruções para o Frontend
 
@@ -81,7 +82,7 @@ readme: |
    ```
    - O frontend estará disponível em [http://localhost:3000](http://localhost:3000).
 
-3. **Ajustar** `AcomodacaoService.js` (ou onde você define a baseURL) para apontar a URL da sua API (por padrão `http://localhost:8000`).
+3. **Ajustar Caso Alterar a Porta do Backend** `AcomodacaoService.js` para apontar a URL da sua API (por padrão `http://localhost:8000`).
 
 ---
 
