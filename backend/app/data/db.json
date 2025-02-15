@@ -1,0 +1,751 @@
+[
+  {
+    "id": 1,
+    "nome": "Chalé Aconchegante Moderno - João Pessoa (1)",
+    "imagem": "https://picsum.photos/seed/1/800/600",
+    "preco_noite": 303,
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "descricao": "Chalé localizado em João Pessoa com ótima infraestrutura.",
+    "avaliacao": 4.4,
+    "amenities": [
+      "Cozinha equipada",
+      "Piscina",
+      "Wi-Fi",
+      "Ar-condicionado",
+      "Estacionamento"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 2,
+    "banheiros": 1
+  },
+  {
+    "id": 2,
+    "nome": "Cobertura Central - Florianópolis (2)",
+    "imagem": "https://picsum.photos/seed/2/800/600",
+    "preco_noite": 949,
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "descricao": "Apartamento localizado em Florianópolis com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Estacionamento",
+      "Cozinha equipada",
+      "Ar-condicionado"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 1,
+    "banheiros": 4
+  },
+  {
+    "id": 3,
+    "nome": "Sobrado Aconchegante - Vitória (3)",
+    "imagem": "https://picsum.photos/seed/3/800/600",
+    "preco_noite": 354,
+    "cidade": "Vitória",
+    "estado": "ES",
+    "descricao": "Casa localizado em Vitória com ótima infraestrutura.",
+    "avaliacao": 4.3,
+    "amenities": [
+      "Cozinha equipada",
+      "Piscina"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 5,
+    "banheiros": 3
+  },
+  {
+    "id": 4,
+    "nome": "Sobrado Vista Mar - São Paulo (4)",
+    "imagem": "https://picsum.photos/seed/4/800/600",
+    "preco_noite": 452,
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "descricao": "Casa localizado em São Paulo com ótima infraestrutura.",
+    "avaliacao": 4.3,
+    "amenities": [
+      "Pet Friendly",
+      "Ar-condicionado",
+      "Wi-Fi"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 4,
+    "banheiros": 3
+  },
+  {
+    "id": 5,
+    "nome": "Studio Luxo - Salvador (5)",
+    "imagem": "https://picsum.photos/seed/5/800/600",
+    "preco_noite": 925,
+    "cidade": "Salvador",
+    "estado": "BA",
+    "descricao": "Apartamento localizado em Salvador com ótima infraestrutura.",
+    "avaliacao": 4.1,
+    "amenities": [
+      "Cozinha equipada",
+      "Pet Friendly",
+      "Estacionamento",
+      "Wi-Fi"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 4,
+    "banheiros": 3
+  },
+  {
+    "id": 6,
+    "nome": "Studio Moderno - Curitiba (6)",
+    "imagem": "https://picsum.photos/seed/6/800/600",
+    "preco_noite": 630,
+    "cidade": "Curitiba",
+    "estado": "PR",
+    "descricao": "Apartamento localizado em Curitiba com ótima infraestrutura.",
+    "avaliacao": 4.3,
+    "amenities": [
+      "Estacionamento",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 2,
+    "banheiros": 1
+  },
+  {
+    "id": 7,
+    "nome": "Chalé Aconchegante Vista Mar - Recife (7)",
+    "imagem": "https://picsum.photos/seed/7/800/600",
+    "preco_noite": 431,
+    "cidade": "Recife",
+    "estado": "PE",
+    "descricao": "Chalé localizado em Recife com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Cozinha equipada",
+      "Pet Friendly"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 5,
+    "banheiros": 4
+  },
+  {
+    "id": 8,
+    "nome": "Studio Aconchegante - Fortaleza (8)",
+    "imagem": "https://picsum.photos/seed/8/800/600",
+    "preco_noite": 305,
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "descricao": "Apartamento localizado em Fortaleza com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Estacionamento",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 5,
+    "banheiros": 1
+  },
+  {
+    "id": 9,
+    "nome": "Chácara Charmoso - Fortaleza (9)",
+    "imagem": "https://picsum.photos/seed/9/800/600",
+    "preco_noite": 321,
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "descricao": "Casa localizado em Fortaleza com ótima infraestrutura.",
+    "avaliacao": 4.3,
+    "amenities": [
+      "Piscina",
+      "Estacionamento",
+      "Ar-condicionado"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 1,
+    "banheiros": 3
+  },
+  {
+    "id": 10,
+    "nome": "Vila Panorâmica - Gramado (10)",
+    "imagem": "https://picsum.photos/seed/10/800/600",
+    "preco_noite": 701,
+    "cidade": "Gramado",
+    "estado": "RS",
+    "descricao": "Casa localizado em Gramado com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Churrasqueira",
+      "Ar-condicionado",
+      "Piscina"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 2,
+    "banheiros": 1
+  },
+  {
+    "id": 11,
+    "nome": "Casa Colonial Panorâmica - Florianópolis (11)",
+    "imagem": "https://picsum.photos/seed/11/800/600",
+    "preco_noite": 937,
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "descricao": "Casa localizado em Florianópolis com ótima infraestrutura.",
+    "avaliacao": 4.4,
+    "amenities": [
+      "Wi-Fi",
+      "Pet Friendly",
+      "Ar-condicionado",
+      "Piscina"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 3,
+    "banheiros": 4
+  },
+  {
+    "id": 12,
+    "nome": "Refúgio Aconchegante - Belo Horizonte (12)",
+    "imagem": "https://picsum.photos/seed/12/800/600",
+    "preco_noite": 720,
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "descricao": "Chalé localizado em Belo Horizonte com ótima infraestrutura.",
+    "avaliacao": 4.2,
+    "amenities": [
+      "Cozinha equipada",
+      "Wi-Fi",
+      "Ar-condicionado"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 2,
+    "banheiros": 1
+  },
+  {
+    "id": 13,
+    "nome": "Casa de Montanha Panorâmica - Gramado (13)",
+    "imagem": "https://picsum.photos/seed/13/800/600",
+    "preco_noite": 657,
+    "cidade": "Gramado",
+    "estado": "RS",
+    "descricao": "Chalé localizado em Gramado com ótima infraestrutura.",
+    "avaliacao": 4.1,
+    "amenities": [
+      "Cozinha equipada",
+      "Pet Friendly"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 1,
+    "banheiros": 2
+  },
+  {
+    "id": 14,
+    "nome": "Casa de Montanha Vista Mar - Maceió (14)",
+    "imagem": "https://picsum.photos/seed/14/800/600",
+    "preco_noite": 659,
+    "cidade": "Maceió",
+    "estado": "AL",
+    "descricao": "Chalé localizado em Maceió com ótima infraestrutura.",
+    "avaliacao": 4.2,
+    "amenities": [
+      "Estacionamento",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 2,
+    "banheiros": 4
+  },
+  {
+    "id": 15,
+    "nome": "Cobertura Charmoso - Rio de Janeiro (15)",
+    "imagem": "https://picsum.photos/seed/15/800/600",
+    "preco_noite": 957,
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "descricao": "Apartamento localizado em Rio de Janeiro com ótima infraestrutura.",
+    "avaliacao": 4.9,
+    "amenities": [
+      "Piscina",
+      "Estacionamento"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 1,
+    "banheiros": 1
+  },
+  {
+    "id": 16,
+    "nome": "Cobertura Charmoso - João Pessoa (16)",
+    "imagem": "https://picsum.photos/seed/16/800/600",
+    "preco_noite": 448,
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "descricao": "Apartamento localizado em João Pessoa com ótima infraestrutura.",
+    "avaliacao": 4.0,
+    "amenities": [
+      "Churrasqueira",
+      "Piscina"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 5,
+    "banheiros": 3
+  },
+  {
+    "id": 17,
+    "nome": "Loft Luxo - João Pessoa (17)",
+    "imagem": "https://picsum.photos/seed/17/800/600",
+    "preco_noite": 399,
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "descricao": "Apartamento localizado em João Pessoa com ótima infraestrutura.",
+    "avaliacao": 4.9,
+    "amenities": [
+      "Churrasqueira",
+      "Piscina",
+      "Estacionamento"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 1,
+    "banheiros": 2
+  },
+  {
+    "id": 18,
+    "nome": "Vila Aconchegante - Cuiabá (18)",
+    "imagem": "https://picsum.photos/seed/18/800/600",
+    "preco_noite": 473,
+    "cidade": "Cuiabá",
+    "estado": "MT",
+    "descricao": "Casa localizado em Cuiabá com ótima infraestrutura.",
+    "avaliacao": 4.8,
+    "amenities": [
+      "Estacionamento",
+      "Ar-condicionado",
+      "Wi-Fi",
+      "Churrasqueira"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 2,
+    "banheiros": 3
+  },
+  {
+    "id": 19,
+    "nome": "Refúgio Aconchegante - Gramado (19)",
+    "imagem": "https://picsum.photos/seed/19/800/600",
+    "preco_noite": 830,
+    "cidade": "Gramado",
+    "estado": "RS",
+    "descricao": "Chalé localizado em Gramado com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Churrasqueira",
+      "Wi-Fi",
+      "Piscina"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 4,
+    "banheiros": 4
+  },
+  {
+    "id": 20,
+    "nome": "Sobrado Charmoso - Rio de Janeiro (20)",
+    "imagem": "https://picsum.photos/seed/20/800/600",
+    "preco_noite": 900,
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "descricao": "Casa localizado em Rio de Janeiro com ótima infraestrutura.",
+    "avaliacao": 4.8,
+    "amenities": [
+      "Pet Friendly",
+      "Churrasqueira"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 3,
+    "banheiros": 2
+  },
+  {
+    "id": 21,
+    "nome": "Sobrado Panorâmica - São Paulo (21)",
+    "imagem": "https://picsum.photos/seed/21/800/600",
+    "preco_noite": 789,
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "descricao": "Casa localizado em São Paulo com ótima infraestrutura.",
+    "avaliacao": 4.4,
+    "amenities": [
+      "Churrasqueira",
+      "Ar-condicionado",
+      "Pet Friendly"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 4,
+    "banheiros": 4
+  },
+  {
+    "id": 22,
+    "nome": "Chácara Vista Mar - Gramado (22)",
+    "imagem": "https://picsum.photos/seed/22/800/600",
+    "preco_noite": 808,
+    "cidade": "Gramado",
+    "estado": "RS",
+    "descricao": "Casa localizado em Gramado com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Estacionamento",
+      "Cozinha equipada",
+      "Pet Friendly",
+      "Churrasqueira"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 1,
+    "banheiros": 2
+  },
+  {
+    "id": 23,
+    "nome": "Refúgio Moderno - Florianópolis (23)",
+    "imagem": "https://picsum.photos/seed/23/800/600",
+    "preco_noite": 978,
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "descricao": "Chalé localizado em Florianópolis com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Pet Friendly",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 4,
+    "banheiros": 4
+  },
+  {
+    "id": 24,
+    "nome": "Chalé Aconchegante Luxo - Campo Grande (24)",
+    "imagem": "https://picsum.photos/seed/24/800/600",
+    "preco_noite": 569,
+    "cidade": "Campo Grande",
+    "estado": "MS",
+    "descricao": "Chalé localizado em Campo Grande com ótima infraestrutura.",
+    "avaliacao": 4.2,
+    "amenities": [
+      "Piscina",
+      "Wi-Fi"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 1,
+    "banheiros": 3
+  },
+  {
+    "id": 25,
+    "nome": "Casa Colonial Moderno - Gramado (25)",
+    "imagem": "https://picsum.photos/seed/25/800/600",
+    "preco_noite": 496,
+    "cidade": "Gramado",
+    "estado": "RS",
+    "descricao": "Casa localizado em Gramado com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Cozinha equipada",
+      "Churrasqueira"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 1,
+    "banheiros": 2
+  },
+  {
+    "id": 26,
+    "nome": "Refúgio Vista Mar - Salvador (26)",
+    "imagem": "https://picsum.photos/seed/26/800/600",
+    "preco_noite": 501,
+    "cidade": "Salvador",
+    "estado": "BA",
+    "descricao": "Chalé localizado em Salvador com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Churrasqueira",
+      "Estacionamento",
+      "Pet Friendly",
+      "Ar-condicionado"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 4,
+    "banheiros": 2
+  },
+  {
+    "id": 27,
+    "nome": "Chalé Aconchegante Central - Salvador (27)",
+    "imagem": "https://picsum.photos/seed/27/800/600",
+    "preco_noite": 757,
+    "cidade": "Salvador",
+    "estado": "BA",
+    "descricao": "Chalé localizado em Salvador com ótima infraestrutura.",
+    "avaliacao": 4.1,
+    "amenities": [
+      "Piscina",
+      "Pet Friendly"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 1,
+    "banheiros": 1
+  },
+  {
+    "id": 28,
+    "nome": "Chalé Rústico Moderno - Fortaleza (28)",
+    "imagem": "https://picsum.photos/seed/28/800/600",
+    "preco_noite": 854,
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "descricao": "Chalé localizado em Fortaleza com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Ar-condicionado",
+      "Cozinha equipada",
+      "Piscина"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 5,
+    "banheiros": 4
+  },
+  {
+    "id": 29,
+    "nome": "Casa de Montanha Central - Campinas (29)",
+    "imagem": "https://picsum.photos/seed/29/800/600",
+    "preco_noite": 938,
+    "cidade": "Campinas",
+    "estado": "SP",
+    "descricao": "Chalé localizado em Campinas com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Piscina",
+      "Churrasqueira",
+      "Estacionamento",
+      "Ar-condicionado",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 2,
+    "banheiros": 3
+  },
+  {
+    "id": 30,
+    "nome": "Chácara Luxo - Rio de Janeiro (30)",
+    "imagem": "https://picsum.photos/seed/30/800/600",
+    "preco_noite": 964,
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "descricao": "Casa localizado em Rio de Janeiro com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Cozinha equipada",
+      "Piscina",
+      "Wi-Fi",
+      "Pet Friendly",
+      "Ar-condicionado"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 3,
+    "banheiros": 3
+  },
+  {
+    "id": 31,
+    "nome": "Studio Charmoso - São Paulo (31)",
+    "imagem": "https://picsum.photos/seed/31/800/600",
+    "preco_noite": 468,
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "descricao": "Apartamento localizado em São Paulo com ótima infraestrutura.",
+    "avaliacao": 5.0,
+    "amenities": [
+      "Estacionamento",
+      "Piscina",
+      "Churrasqueira",
+      "Pet Friendly",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 4,
+    "banheiros": 2
+  },
+  {
+    "id": 32,
+    "nome": "Cobertura Aconchegante - Campo Grande (32)",
+    "imagem": "https://picsum.photos/seed/32/800/600",
+    "preco_noite": 654,
+    "cidade": "Campo Grande",
+    "estado": "MS",
+    "descricao": "Apartamento localizado em Campo Grande com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Churrasqueira",
+      "Pet Friendly",
+      "Ar-condicionado",
+      "Estacionamento",
+      "Wi-Fi"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 4,
+    "banheiros": 3
+  },
+  {
+    "id": 33,
+    "nome": "Cabanas Luxo - Maceió (33)",
+    "imagem": "https://picsum.photos/seed/33/800/600",
+    "preco_noite": 430,
+    "cidade": "Maceió",
+    "estado": "AL",
+    "descricao": "Chalé localizado em Maceió com ótima infraestrutura.",
+    "avaliacao": 4.1,
+    "amenities": [
+      "Churrasqueira",
+      "Wi-Fi",
+      "Pet Friendly",
+      "Piscina",
+      "Estacionamento"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 2,
+    "banheiros": 1
+  },
+  {
+    "id": 34,
+    "nome": "Chalé Aconchegante Aconchegante - Vitória (34)",
+    "imagem": "https://picsum.photos/seed/34/800/600",
+    "preco_noite": 946,
+    "cidade": "Vitória",
+    "estado": "ES",
+    "descricao": "Chalé localizado em Vitória com ótima infraestrutura.",
+    "avaliacao": 4.9,
+    "amenities": [
+      "Pet Friendly",
+      "Churrasqueira",
+      "Wi-Fi",
+      "Piscina"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 5,
+    "banheiros": 4
+  },
+  {
+    "id": 35,
+    "nome": "Cobertura Central - Recife (35)",
+    "imagem": "https://picsum.photos/seed/35/800/600",
+    "preco_noite": 479,
+    "cidade": "Recife",
+    "estado": "PE",
+    "descricao": "Apartamento localizado em Recife com ótima infraestrutura.",
+    "avaliacao": 4.4,
+    "amenities": [
+      "Piscina",
+      "Churrasqueira",
+      "Estacionamento",
+      "Ar-condicionado",
+      "Wi-Fi"
+    ],
+    "tipo_imovel": "Apartamento",
+    "quartos": 4,
+    "banheiros": 2
+  },
+  {
+    "id": 36,
+    "nome": "Casa de Montanha Charmoso - Rio de Janeiro (36)",
+    "imagem": "https://picsum.photos/seed/36/800/600",
+    "preco_noite": 715,
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "descricao": "Chalé localizado em Rio de Janeiro com ótima infraestrutura.",
+    "avaliacao": 4.5,
+    "amenities": [
+      "Churrasqueira",
+      "Piscина"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 1,
+    "banheiros": 3
+  },
+  {
+    "id": 37,
+    "nome": "Vila Luxo - Manaus (37)",
+    "imagem": "https://picsum.photos/seed/37/800/600",
+    "preco_noite": 690,
+    "cidade": "Manaus",
+    "estado": "AM",
+    "descricao": "Casa localizado em Manaus com ótima infraestrutura.",
+    "avaliacao": 5.0,
+    "amenities": [
+      "Estacionamento",
+      "Cozinha equipada",
+      "Ar-condicionado",
+      "Pet Friendly",
+      "Wi-Fi"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 3,
+    "banheiros": 2
+  },
+  {
+    "id": 38,
+    "nome": "Chácara Luxo - Florianópolis (38)",
+    "imagem": "https://picsum.photos/seed/38/800/600",
+    "preco_noite": 306,
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "descricao": "Casa localizado em Florianópolis com ótima infraestrutura.",
+    "avaliacao": 4.0,
+    "amenities": [
+      "Piscina",
+      "Ar-condicionado",
+      "Estacionamento",
+      "Pet Friendly",
+      "Cozinha equipada"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 5,
+    "banheiros": 4
+  },
+  {
+    "id": 39,
+    "nome": "Refúgio Luxo - Cuiabá (39)",
+    "imagem": "https://picsum.photos/seed/39/800/600",
+    "preco_noite": 443,
+    "cidade": "Cuiabá",
+    "estado": "MT",
+    "descricao": "Chalé localizado em Cuiabá com ótima infraestrutura.",
+    "avaliacao": 4.3,
+    "amenities": [
+      "Piscina",
+      "Ar-condicionado",
+      "Churrasqueira"
+    ],
+    "tipo_imovel": "Chalé",
+    "quartos": 4,
+    "banheiros": 4
+  },
+  {
+    "id": 40,
+    "nome": "Casa de Campo Luxo - Brasília (40)",
+    "imagem": "https://picsum.photos/seed/40/800/600",
+    "preco_noite": 440,
+    "cidade": "Brasília",
+    "estado": "DF",
+    "descricao": "Casa localizado em Brasília com ótima infraestrutura.",
+    "avaliacao": 4.3,
+    "amenities": [
+      "Wi-Fi",
+      "Cozinha equipada",
+      "Estacionamento"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 3,
+    "banheiros": 3
+  },
+  {
+    "id": 150,
+    "nome": "Casa de Campo Panorâmica - João Pessoa (150)",
+    "imagem": "https://picsum.photos/seed/150/800/600",
+    "preco_noite": 972,
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "descricao": "Casa localizado em João Pessoa com ótima infraestrutura.",
+    "avaliacao": 4.7,
+    "amenities": [
+      "Ar-condicionado",
+      "Estacionamento",
+      "Wi-Fi",
+      "Piscina"
+    ],
+    "tipo_imovel": "Casa",
+    "quartos": 3,
+    "banheiros": 4
+  }
+]

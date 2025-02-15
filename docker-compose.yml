@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  # Serviço do BACKEND
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: api-acomodacoes
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+
+  # Serviço do FRONTEND
+  frontend:
+    build:
+      context: ./frontend/acomodacoes
+      dockerfile: Dockerfile
+    container_name: web-acomodacoes
+    # Se estiver servindo com nginx, normalmente a porta é 80
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
