@@ -119,7 +119,7 @@ A API do **backend** (FastAPI) expõe, por exemplo:
 
 - **GET /acomodacoes**  
   - Retorna uma lista com todas as acomodações.
-  - Possíveis filtros via query params (ex.: `cidade`, `estado`, `tipo_imovel` etc.).
+  - Possíveis filtros via query params (ex.: `cidade`, `tipo_imovel` etc.).
   - Exemplo: `GET /acomodacoes?cidade=Florianópolis`
 
 - **GET /acomodacoes/{id}**  
